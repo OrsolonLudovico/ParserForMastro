@@ -1,5 +1,5 @@
 # PARSING DATA FROM RECAP FORMAT TO A FORMAT THAT MASTRO CAN UNDERSTAND
-##How to run
+## How to run
 Run the conversion script `run_parser.py`(it's raccomanded to use the command `python3 run_parser.py`). Such script accepts various parameters, listed and described bu using the `-h` flag:
 
 ```
@@ -27,11 +27,11 @@ The `-m` option specifies the mode:
 If not specified `b` is the default
 The `-s` flag specifies the maximum number of edges of the expanded graph. If a value is specified then all the trees that have more than the value edges in the expanded graph will not be written in the output.If nothing is specified then all the trees will be written in the output 
 
-##Input format
+## Input format
 Follow the directives at `https://github.com/elkebir-group/RECAP/tree/master#io-format`
 [Note: The symbol that separates the clusters can be only `;` and it can not be specified to be anything else]
 
-##Output
+## Output
 Running the script produces one or two (depending on the choice made in the `-m` flag) text files. Each file has a tree in each line and that complies with the format that MASTRO accepts(for more information about this format see `https://github.com/VandinLab/MASTRO#input-format`)
 Those files can be individually used as an input for MASTRO
 
