@@ -1,0 +1,24 @@
+3 #patients
+2 #trees for patient 1
+5 #edges
+GL C;B;A
+A;C;B E
+A;B;C D
+D F;G
+F;G J
+4 #EDGES
+GL A;B
+B;A D
+A;B C
+D E
+1 #trees for patient 2
+5 #EDGES
+GL A
+A B;C
+A D
+B;C F
+D E
+1 #trees for patient 3
+2 #edges
+GL A
+A B
