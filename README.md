@@ -35,10 +35,10 @@ Follow the directives at `https://github.com/elkebir-group/RECAP/tree/master#io-
 Running the script produces one or two (depending on the choice made in the `-m` flag) text files. Each file has a tree in each line and that complies with the format that MASTRO accepts(for more information about this format see `https://github.com/VandinLab/MASTRO#input-format`)
 Those files can be individually used as an input for MASTRO
 
-#Strip.py
+# Strip.py
 (This script is not strictly necessary, the same funtionalities are implemented in `run_parser.py` using the flag `-s`)
 Run `Strip.py` to discard all the expanded graph that have more than a specified value from an input file (expressed in MASTRO format)
-##How to run
+## How to run
 ```
 usage: strip.py [-h] -g G [-n N]
 
